@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сотрудники</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search-container">
+        <input type="text" id="search-input">
+        <button id="search-button" type="button" class="search-button">
+        </button>
+    </div>
+
+    <div id="cards-container"></div>
+    <div id="popup" class="popup">
+        <div class="popup-content" id="popup-content"></div>
+        <span class="popup-close" id="popup-close">&times;</span>
+    </div>
+    
+    <div id="no-results-popup" class="popup" style="display: none;">
+        <div class="popup-content">
+            <p>По вашему запросу ничего не найдено.</p>
+        </div>
+        <span id="no-results-popup-close" class="popup-close-no-result">&times;</span>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
